@@ -1,0 +1,5 @@
+﻿  App.cpp
+  Window.cpp
+C:\Users\tygo\Desktop\c++ Projects\3DEngine\3DEngine\App.cpp(25,33): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\tygo\Desktop\c++ Projects\3DEngine\3DEngine\App.cpp(25,24): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  3DEngine.vcxproj -> C:\Users\tygo\Desktop\c++ Projects\3DEngine\Debug\3DEngine.exe

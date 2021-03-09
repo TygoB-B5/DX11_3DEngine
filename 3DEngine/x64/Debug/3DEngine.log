@@ -1,0 +1,5 @@
+﻿  Window.cpp
+  WinEntry.cpp
+C:\Users\tygo\Desktop\c++ Projects\3DEngine\3DEngine\WinEntry.cpp(26,13): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\tygo\Desktop\c++ Projects\3DEngine\3DEngine\WinEntry.cpp(32): warning C4715: 'WinMain': not all control paths return a value
+  3DEngine.vcxproj -> C:\Users\tygo\Desktop\c++ Projects\3DEngine\x64\Debug\3DEngine.exe

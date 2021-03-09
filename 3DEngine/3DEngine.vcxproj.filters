@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{77f677ac-c470-4d26-ab98-38fb84f26ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Win">
+      <UniqueIdentifier>{d4997762-090d-4f3c-8712-db8165241396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Win">
+      <UniqueIdentifier>{9a713ba5-8aee-41f7-8c9c-769485faf037}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="WinEntry.cpp">
+      <Filter>Source files\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="WinException.cpp">
+      <Filter>Source files\Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Time.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFixed.h">
+      <Filter>Header files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header files\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="WinException.h">
+      <Filter>Header files\Win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DEngine.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
